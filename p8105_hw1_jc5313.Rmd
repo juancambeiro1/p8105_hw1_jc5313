@@ -11,3 +11,8 @@ I have installed the `penguins` dataset in the console.
 data("penguins", package = "palmerpenguins")
 ```
 
+I have just loaded the `penguins` dataset and now I want to write a short description of this dataset.
+
+```{r}
+summary(penguins)
+```
