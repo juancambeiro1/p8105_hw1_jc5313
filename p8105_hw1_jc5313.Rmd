@@ -1,0 +1,13 @@
+---
+title: "p8105_hw1_jc5313.Rmd"
+output: html_document
+---
+
+# Problem 1
+
+I have installed the `penguins` dataset in the console.
+
+```{r}
+data("penguins", package = "palmerpenguins")
+```
+
