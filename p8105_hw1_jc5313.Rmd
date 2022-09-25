@@ -20,12 +20,30 @@ ncol(penguins)
 ```
 
 The penguins dataset contains the following:
+
 * Eight variables: 
+
   * "species": three different species 
-  * "island": three different isladns
+  
+  * "island": three different islands
+  
   * "bill_length_mm": mean of 43.92
+  
   * "bill_depth_mm": mean of 17.15
+  
   * "flipper_length_mm": mean of 200.9
+  
   * "body_mass_g": mean of 4202
+  
   * "sex": 165 females, 168 males, 11 N/A
+  
   * "year": mean of 2008
+  
+* Size of dataset
+
+  * 344 rows
+  
+  * 8 columns
+
+Now, I will make a scatterplot of flipper_length_mm (y) vs bill_length_mm (x)
+
