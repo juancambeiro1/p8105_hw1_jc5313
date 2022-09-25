@@ -45,5 +45,10 @@ The penguins dataset contains the following:
   
   * 8 columns
 
-Now, I will make a scatterplot of flipper_length_mm (y) vs bill_length_mm (x)
+Now, I will make a scatterplot of flipper_length_mm (y) vs bill_length_mm (x) with color points by `species`
+
+```{r}
+library(tidyverse)
+ggplot(penguins, aes(x = bill_length_mm, y = flipper_length_mm, color = species)) + geom_point()
+```
 
