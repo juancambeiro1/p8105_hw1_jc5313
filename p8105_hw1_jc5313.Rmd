@@ -52,3 +52,7 @@ library(tidyverse)
 ggplot(penguins, aes(x = bill_length_mm, y = flipper_length_mm, color = species)) + geom_point()
 ```
 
+Now, I will save the scatterplot using `ggsave`
+```{r}
+ggsave("scatter_plot_penguins.pdf", height=4, width=6)
+```
