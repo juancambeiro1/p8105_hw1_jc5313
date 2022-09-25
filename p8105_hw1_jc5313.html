@@ -431,6 +431,18 @@ bill_length_mm (x) with color points by <code>species</code></p>
 <pre class="r"><code>ggsave(&quot;scatter_plot_penguins.pdf&quot;, height=4, width=6)</code></pre>
 <pre><code>## Warning: Removed 2 rows containing missing values (geom_point).</code></pre>
 </div>
+<div id="problem-2" class="section level1">
+<h1>Problem 2</h1>
+<p>Now, I will create a data frame with a random sample size of 10 from
+a normal distribution, a logical vector, a character vector of length
+10, and a factor vector of length 10.</p>
+<pre class="r"><code>df = tibble(
+  random = rnorm(10),
+  logic_vector = random &gt; 0,
+  char_vector = c(&quot;USA&quot;, &quot;UK&quot;, &quot;SPAIN&quot;, &quot;DENMARK&quot;, &quot;NORWAY&quot;, &quot;PORTUGAL&quot;, &quot;CANADA&quot;, &quot;CHINA&quot;, &quot;RUSSIA&quot;, &quot;INDIA&quot;),
+  vec_factor = factor(c(&quot;big&quot;, &quot;normal&quot;, &quot;small&quot;, &quot;big&quot;, &quot;normal&quot;, &quot;small&quot;, &quot;big&quot;, &quot;normal&quot;, &quot;small&quot;, &quot;big&quot;))
+)</code></pre>
+</div>
 
 
 
