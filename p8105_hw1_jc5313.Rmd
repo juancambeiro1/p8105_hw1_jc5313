@@ -1,6 +1,6 @@
 ---
 title: "p8105_hw1_jc5313.Rmd"
-output: html_document
+output: github_document
 ---
 
 # Problem 1
@@ -71,15 +71,5 @@ df = tibble(
 ```
 
 Now, I will try to take the mean of each variable in my dataframe.
-
-```{r}
-library(tidyverse)
-mean(logic_vector)
-pull(.data, var = logic_vector, mean)
-mean(char_vector)
-pull(.data, var = char_vector, mean)
-mean(vec_factor)
-pull(.data, var = vec_factor, mean)
-```
 
 Taking the mean of the variables in the dataframe does not seem to work.
