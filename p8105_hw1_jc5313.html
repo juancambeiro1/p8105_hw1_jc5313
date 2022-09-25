@@ -442,6 +442,12 @@ a normal distribution, a logical vector, a character vector of length
   char_vector = c(&quot;USA&quot;, &quot;UK&quot;, &quot;SPAIN&quot;, &quot;DENMARK&quot;, &quot;NORWAY&quot;, &quot;PORTUGAL&quot;, &quot;CANADA&quot;, &quot;CHINA&quot;, &quot;RUSSIA&quot;, &quot;INDIA&quot;),
   vec_factor = factor(c(&quot;big&quot;, &quot;normal&quot;, &quot;small&quot;, &quot;big&quot;, &quot;normal&quot;, &quot;small&quot;, &quot;big&quot;, &quot;normal&quot;, &quot;small&quot;, &quot;big&quot;))
 )</code></pre>
+<p>Now, I will try to take the mean of each variable in my
+dataframe.</p>
+<pre class="r"><code>library(tidyverse)
+mean(df)</code></pre>
+<pre><code>## Warning in mean.default(df): argument is not numeric or logical: returning NA</code></pre>
+<pre><code>## [1] NA</code></pre>
 </div>
 
 
